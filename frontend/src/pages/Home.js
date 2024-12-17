@@ -2,11 +2,8 @@ import React from 'react';
 
 function Home() {
   return (
-    <div>
-      <h1>Welcome to the Home Page!</h1>
-      <p>
-        This is the home route of your React app. Feel free to customize it.
-      </p>
+    <div className="text-center bg-blue-500 p-4">
+        <h1 className="text-white text-3xl"> Welcome to My Website</h1>
     </div>
   );
 }
